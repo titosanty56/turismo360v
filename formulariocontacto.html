@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TURISMO 360</title>
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-pagina-form">
+            <a href="home.html"><img src="/img/logoturismo360.png" alt="logoturismo360"></a>
+        </div>
+        <div class="btn_menu-form">
+            <img class="logo-menu" src="/img/menu.png" alt=" menu hamburguesa">
+        </div>
+        <div class="menu">
+            <ul class="navigation">
+                <li><a href="home.html">Inicio</a></li>
+                <li><a href="america.html">America</a></li>
+                <li><a href="europa.html">Europa</a></li>
+                <li><a href="formulariocontacto.html">Contactanos</a></li>
+            </ul>
+        </div>
+    </header>
+    <form action="" id="form" class="form-registro">
+        <div class="contenedor-form">
+            <p id="email">Email:</p>
+            <input class="box" type="email" name="email" required>
+            <p>Nombre:</p>
+            <input class="box" type="text" name="nombre" required>
+            <p>Mensaje:</p>
+            <textarea class="box" name="mensaje" rows="8" cols="40" required></textarea>
+        </div>
+        <div class="captcha">
+            <p id="numero-random">Numero Random</p>
+        </div>
+        <input class="box" id="input-numero" type="number">
+        <button class="btn" id="btn-verificar" type="button" >verificar</button>
+        <p id="instruccion-verificacion">escribe el mismo numero que ves en pantalla para verificar si sos o no un robot</p>
+        <p id="correcto"></p>
+        <div class="contenedor-enviar-gracias">
+            <button type="submit" id="enviar" class="btn-enviar">Enviar</button>
+            <p id="agradecimiento"></p>
+        </div>
+    </form>
+    <div id="ingreso"></div>
+    <footer class="footer">
+        <div class="contenedor-footer">
+            <p class="email-footer">Email: turismo360@gmail.com</p>
+            <p class="telefono-footer">Contactanos: +54 9 249 460-1612</p>
+            <p class="derechos-footer">@ 2024 turismo 360| Tandil, Buenos Aires, Argentina</p>
+        </div>
+    </footer>
+
+    <script src="/js/form.js"></script>
+</body>
+
+</html>
